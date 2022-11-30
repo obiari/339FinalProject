@@ -1,0 +1,89 @@
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: #7b70c6;
+   line-height: 1.5;
+}
+
+.skip {
+   background-color: white;
+   padding: 8px;
+   position: absolute;
+   top: -40px;
+}
+
+.skip:focus {
+   /* position: absolute; */
+   top: 0px;
+}
+
+nav {
+   background-color: white;
+   padding: 24px 0;
+}
+
+nav li {
+   display: inline;
+   padding-left: 24px;
+}
+
+nav a {
+   color: black;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.current_page {
+   color: #7b70c6;
+   text-decoration: underline;
+}
+
+nav a:hover {
+   text-decoration: underline;
+}
+
+nav a:focus {
+   text-decoration: underline;
+}
+
+footer {
+   text-align: center;
+   background-color: rgb(131, 111, 141);
+   padding: 24px 0;
+}
+
+h1 {
+   color: white;
+   font-size: xx-large;
+   padding: 48px 0;
+   text-align: center;
+}
+
+.title {
+   background-image: url(../images/sam/gemini-rights.jpeg);
+}
+
+h2 {
+   font-size: x-large;
+   text-align: center;
+   margin-bottom: 24px;
+}
+
+.picks {
+   padding: 32px 24px;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+}
+
+.container img {
+   width: 100%;
+}
+
+@media screen and (min-width: 480px){
+   body {
+      background-color: black;
+   }
+}

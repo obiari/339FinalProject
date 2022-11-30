@@ -1,0 +1,208 @@
+body{
+    font-family: 'Poppins', serif;
+    background-color: #f1f1f1;
+    background-image:url("../images/obiari/book_coverimage.jpeg");
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: azure;
+}
+
+a:visited{
+    color: #0000ff;
+}
+
+.card > header{
+    background: #288088;
+    border: solid 2px #401be2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.card{
+    border-radius: 50px;
+    flex-basis: 450px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+/*step 8*/
+.pricing{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*step 9*/
+.gallery img{
+    border: solid 10px #200564;
+    margin: 10px;
+    width: 300px;
+}
+
+/*step 10*/
+.gallery{
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width:900px){
+    /*step 11*/
+    body > header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    /*step 11 cont.*/
+    .nav_links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /*step 12*/
+    .pricing{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+        flex-basis: 275px;
+    }
+    /*step 12 cont*/
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 275px;
+    } 
+    /*step 12 cont*/
+    .card > header{
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+   li{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    /*step 13*/
+    #header{
+        position: fixed;
+    }
+}
+/*step 14*/
+@media (prefers-reduced-motion) {
+
+    #logo {
+      animation: none;
+    }
+}
+
+/*@media print{
+    body {
+    font-family: Arial, Helvetica;
+    background-image: none;
+    }
+    nav{
+        width: 100%;
+    }
+    .nav_links{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .pricing{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 325;
+    }
+    .card > header{
+        border: solid 2px #45ADAD;
+        flex-basis: 325px;
+    }
+    .gallery{
+        display: none;
+    }
+    #gallery{
+        display: none;
+    }
+    .card li:nth-of-type(2)::after{
+        content: "👍";
+    }
+}*/
+
+@media print{
+    /*step 15*/
+    body{
+    font-family: Arial, Helvetica;
+    background-image: none; /*stpe 16*/
+    }
+    /*step 17*/
+    nav{
+        width: 100%;
+    }
+     /*step 17 cont*/
+    .nav_links{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+     /*step 18*/
+    .pricing{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        flex-flow: row nowrap;
+        align-items: flex-end;
+    }
+    /*centering prices*/
+    .card > header{
+        justify-content: center;
+        align-items: center;
+    } 
+
+    /*.card > header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 325px;
+    }*/
+    /*step 19*/
+    .card{
+        border: solid 2px #45ADAD;
+        flex-basis: 325px;
+    }
+    /*step 20*/
+    .gallery{
+        display: none;
+    }
+    /*step 20 cont*/
+    #gallery{
+        display: none;
+    }
+    /*step 21*/
+    .card li:nth-of-type(2)::after{
+        content: "👍";
+    }
+}
