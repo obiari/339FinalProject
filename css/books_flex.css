@@ -1,0 +1,123 @@
+.banner {
+   background-image:url("../images/book_coverimage.jpeg");
+}
+
+h1 {
+   color: white;
+}
+/* header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+} */
+
+/* .nav_links{
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   background-color: azure;
+}
+a:visited{
+   color: #0000ff;
+} */
+
+.picks > header{
+   background: #288088;
+   border: solid 2px #401be2;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+}
+
+.text1, .text2, .text3, .text4 {
+   align-items: center;
+   background-color: rgba(9, 250, 17, 0.397);
+   padding: 0px;
+   border: solid .5px #401be2;
+}
+
+.gallery img{
+   border: solid 10px #200564;
+   margin: 10px;
+   width: 300px;
+}
+
+.gallery{
+   display:flex;
+   flex-direction: row; 
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+   main{
+      flex-direction: row;
+   }
+   .picks{
+     flex-direction: row;
+     margin: 40px
+   }
+   .gallery img{
+      border: solid 10px #200564;
+      margin: 10px;
+      width: 300px;
+      margin-right: 0;
+   }
+   
+   .text1, .text2, .text3, .text4 {
+      align-items: center;
+      background-color: rgba(9, 250, 17, 0.397);
+      padding: 0px;
+      border: solid .5px #401be2;
+      margin: 20px;
+      font-size: small;
+      margin-left: 0;
+   }
+ }
+
+@media screen and (min-width: 768px) {
+   main{
+      flex-direction: row;
+   }
+   .picks{
+     flex-direction: row;
+     margin: 40px
+   }
+   .gallery img{
+      border: solid 10px #200564;
+      margin: 10px;
+      width: 300px;
+      margin-right: 0;
+   }
+   
+   .text1, .text2, .text3, .text4 {
+      align-items: center;
+      background-color: rgba(9, 250, 17, 0.397);
+      padding: 0px;
+      border: solid .5px #401be2;
+      margin: 20px;
+      font-size: small;
+      margin-left: 0;
+   }
+}
+
+@media screen and (min-width: 900px) {
+   .gallery img{
+      border: solid 10px #200564;
+      margin: 10px;
+      width: 300px;
+      margin-right: 0;
+   }
+   
+   .text1, .text2, .text3, .text4 {
+      align-items: center;
+      background-color: rgba(9, 250, 17, 0.397);
+      padding: 0px;
+      border: solid .5px #401be2;
+      margin: 20px;
+      font-size: small;
+      margin-left: 0;
+   }
+}
+
