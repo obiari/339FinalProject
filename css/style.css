@@ -79,7 +79,7 @@ body {
    margin: auto;
 }
 
-.icon {
+.menu {
    position: absolute;
    top: 50%;
    left: 20px;
@@ -107,6 +107,13 @@ body {
 } */
 
 #myLinks .active {
+   color: #AA3E98;
+   /* text-decoration: underline; */
+   font-style: italic;
+   font-weight: bold;
+}
+
+.topnav #open {
    color: #AA3E98;
    /* text-decoration: underline; */
    font-style: italic;
@@ -161,10 +168,6 @@ h1 {
    color: white;
 }
 
-a {
-   /* color: #AA3E98; */
-}
-
 .picks a {
    color: #AA3E98;
    font-weight: bold;
@@ -184,10 +187,6 @@ a {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-}
-
-.home-banner h1 {
-   /* padding: 240px; */
 }
 
 h2 {
@@ -244,12 +243,6 @@ h2 {
       padding: 0 10px;
    }
 
-   #myLinks .centered-links {
-      /* position: absolute; */
-      /* display: inline-block; */
-      /* margin: auto; */
-   }
-
    /* MUSIC PAGE */
 
    .text1 {
@@ -280,7 +273,7 @@ h2 {
       
    }
 
-   .icon {
+   .menu {
       left: 40px;
       /* transition: left 5s ease; */
    }
@@ -332,7 +325,7 @@ h2 {
       transition: none;
    }
 
-   .icon {
+   .menu {
       transition: none;
    }
 
