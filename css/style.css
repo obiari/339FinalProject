@@ -918,92 +918,87 @@ input[type=submit]:hover {
 }
 
 .picks-explained-movie h2{
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      align-items: center;
-      font-size: medium;
-      padding: 70px 220px 70px 220px;
-      border-radius: 30px;
-      margin-top: 60px;
-      margin-bottom: 60px;
-      margin-left: 50px;
-      margin-right: 50px;
-      box-shadow: 20px 20px 50px rgba(67, 21, 235, 0.5);
-      overflow: hidden;
-      border-top: 1px solid rgba(255, 255, 255,0.5);
-      border-left: 1px solid rgba(255, 255, 255,0.5);
-      backdrop-filter: blur(5px);
-      font-family: 'Montserrat';
-      text-align: center;
-   }
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   align-items: center;
+   font-size: medium;
+   padding: 80px 50px 70px 50px;
+   border-radius: 30px;
+   margin-top: 60px;
+   margin-bottom: 60px;
+   margin-left: 50px;
+   margin-right: 50px;
+   box-shadow: 20px 20px 50px rgba(67, 21, 235, 0.5);
+   overflow: hidden;
+   border-top: 1px solid rgba(255, 255, 255,0.5);
+   border-left: 1px solid rgba(255, 255, 255,0.5);
+   backdrop-filter: blur(5px);
+   font-family: 'Montserrat';
+   text-align: center;
+}
 
-   .container-movie{
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      align-items: center;
-      padding: 80px 50px 70px 50px;
-      border-radius: 30px;
-      margin-top: 60px;
-      margin-bottom: 60px;
-      margin-left: 50px;
-      margin-right: 50px;
-      box-shadow: 20px 20px 50px rgba(67, 21, 235, 0.5);
-      overflow: hidden;
-      border-top: 1px solid rgba(255, 255, 255,0.5);
-      border-left: 1px solid rgba(255, 255, 255,0.5);
-      backdrop-filter: blur(5px);
-      font-family: 'Montserrat';
-   }
+.container-movie{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 80px 50px 70px 50px;
+   border-radius: 30px;
+   margin-top: 60px;
+   margin-bottom: 60px;
+   margin-left: 50px;
+   margin-right: 50px;
+   box-shadow: 20px 20px 50px rgba(67, 21, 235, 0.5);
+   overflow: hidden;
+   border-top: 1px solid rgba(255, 255, 255,0.5);
+   border-left: 1px solid rgba(255, 255, 255,0.5);
+   backdrop-filter: blur(5px);
+   font-family: 'Montserrat';
+}
 
-   .text1-movie, .text2-movie, .text3-movie, .text4-movie {
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      align-items: center;
-      padding: 80px 50px 70px 50px;
-      border-radius: 30px;
-      margin-top: 60px;
-      margin-bottom: 60px;
-      margin-left: 50px;
-      margin-right: 50px;
-      box-shadow: 20px 20px 50px rgba(67, 21, 235, 0.5);
-      overflow: hidden;
-      border-top: 1px solid rgba(255, 255, 255,0.5);
-      border-left: 1px solid rgba(255, 255, 255,0.5);
-      backdrop-filter: blur(5px);
-   }
-   
-   .container-moive img{
-      margin: 10px;
-      width: 50px;
-      margin: 20px
+.container-movie img{
+   width: 150px;
+   margin: 20px
+}
 
-   }
+.text1-movie, .text2-movie, .text3-movie, .text4-movie {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+padding: 80px 50px 70px 50px;
+border-radius: 30px;
+box-shadow: 20px 20px 50px rgba(67, 21, 235, 0.5);
+overflow: hidden;
+border-top: 1px solid rgba(255, 255, 255,0.5);
+border-left: 1px solid rgba(255, 255, 255,0.5);
+backdrop-filter: blur(5px);
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+padding: 0px;
+margin: 3px;
+font-size: small;
+margin-left: 0;
+font-family: 'Montserrat', sans-serif;
+}
 
-   .text1-movie h3, .text2-movie h3, .text3-movie h3, .text4-movie h3 {
-      font-family: 'Orbitron';
-      margin: 10px;
-      font-size: 20px;
-      text-align: center;
-   }
-   
-   .text1-movie, .text2-movie, .text3-movie, .text4-movie {
-      text-align: center;
-      padding: 0px;
-      margin: 20px;
-      font-size: small;
-      margin-left: 0;
-      font-family: 'Montserrat', sans-serif;
-   }
+.text1-movie h3, .text2-movie h3, .text3-movie h3, .text4-movie h3 {
+text-align: center;
+margin: 10px;
+}
 
-   .text1-movie iframe, .text2-movie iframe, .text3-movie iframe, .text4-movie iframe{
-      font-family: 'Montserrat', sans-serif;
-      box-shadow: 10px 20px 10px rgba(115, 52, 250, 0.5);
-      margin: 10px;
-      width: 220px;
-   }
+.text1-movie h3, .text2-movie h3, .text3-movie h3, .text4-movie h3 {
+text-align: center;
+margin: 10px;
+}
+
+.text1-movie iframe, .text2-movie iframe, .text3-movie iframe, .text4-movie iframe{
+   font-family: 'Montserrat', sans-serif;
+   box-shadow: 10px 20px 10px rgba(115, 52, 250, 0.5);
+   margin: 10px;
+   width: 150px;
+}
 
          /* media quearies (movie)*/
 
